@@ -4,7 +4,7 @@ from re import sub
 import sys
 import signal
 from time import sleep
-from datetime import datetime
+from date import datetime
 import os
 
 
