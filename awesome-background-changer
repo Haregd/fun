@@ -49,5 +49,5 @@ while sleep ${delay:-0}; do
 	done
 	last=$choice
 	setWallpaper "$WALLPAPER_DIR/$choice"
-	delay=$(( 3600 - $(date '+60*%M+%S' | bc) ))
+	delay=$(( 3000 - $(date '+60*%M+%S' | bc) ))
 done
